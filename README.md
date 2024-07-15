@@ -4,4 +4,4 @@
 npm i
 ```
 
-Install & configure `nodemon` or use VSCode Live server extension to run the project
+Install & configure `nodemon` and some server or use VSCode Live server extension to run the project
