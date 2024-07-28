@@ -3,13 +3,19 @@
  */
 
 const doubleClickDelay = 250;
+
 /** @type { Point | undefined }*/
 let previousPoint = undefined;
 let previousTime = 0;
 
+// Example on how to use p5.* types
+/** @type { p5.Image } */
+let testImage;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   cursor("pointer");
+  testImage = createImage(100, 500);
 }
 
 function draw() {
